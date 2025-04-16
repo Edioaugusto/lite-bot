@@ -8,23 +8,23 @@ const { BOT_NAME, PREFIX } = require("../config");
 exports.menu = () => {
   const date = new Date();
 
-  return `╭━━⪩ BEM VINDO! ⪨━━
+  return `╭━━⪩ 𝐁𝐄𝐌 𝐕𝐈𝐍𝐃𝐎! ⪨━━
 ▢
 ▢ • ${BOT_NAME}
-▢ • Data: ${date.toLocaleDateString("pt-br")}
-▢ • Hora: ${date.toLocaleTimeString("pt-br")}
+▢ • Data: ${date.toLocaleDateString("pt-mz")}
+▢ • Hora: ${date.toLocaleTimeString("pt-mz")}
 ▢ • Prefixo: ${PREFIX}
 ▢
 ╰━━─「🪐」─━━
 
-╭━━⪩ DONO ⪨━━
+╭━━⪩ 𝐃𝐎𝐍𝐎 ⪨━━
 ▢
 ▢ • ${PREFIX}off
 ▢ • ${PREFIX}on
 ▢
 ╰━━─「🌌」─━━
 
-╭━━⪩ ADMINS ⪨━━
+╭━━⪩ 𝐀𝐃𝐌𝐈𝐍𝐒 ⪨━━
 ▢
 ▢ • ${PREFIX}anti-link (1/0)
 ▢ • ${PREFIX}ban
@@ -33,7 +33,7 @@ exports.menu = () => {
 ▢
 ╰━━─「⭐」─━━
 
-╭━━⪩ MENU ⪨━━
+╭━━⪩ 𝐌𝐄𝐍𝐔 ⪨━━
 ▢
 ▢ • ${PREFIX}attp
 ▢ • ${PREFIX}cep
